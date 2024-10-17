@@ -14,7 +14,7 @@
         26
       ],
       "flags": {},
-      "order": 13,
+      "order": 12,
       "mode": 0,
       "inputs": [
         {
@@ -53,7 +53,7 @@
         26
       ],
       "flags": {},
-      "order": 14,
+      "order": 13,
       "mode": 0,
       "inputs": [
         {
@@ -92,7 +92,7 @@
         "1": 108
       },
       "flags": {},
-      "order": 18,
+      "order": 17,
       "mode": 0,
       "inputs": [
         {
@@ -153,7 +153,7 @@
         "1": 160
       },
       "flags": {},
-      "order": 19,
+      "order": 18,
       "mode": 0,
       "inputs": [
         {
@@ -271,7 +271,7 @@
         26
       ],
       "flags": {},
-      "order": 12,
+      "order": 11,
       "mode": 0,
       "inputs": [
         {
@@ -356,7 +356,7 @@
         "1": 29.597196578979492
       },
       "flags": {},
-      "order": 16,
+      "order": 19,
       "mode": 0,
       "inputs": [
         {
@@ -395,7 +395,7 @@
         "1": 246
       },
       "flags": {},
-      "order": 20,
+      "order": 21,
       "mode": 0,
       "inputs": [
         {
@@ -572,7 +572,7 @@
         "1": 246
       },
       "flags": {},
-      "order": 11,
+      "order": 14,
       "mode": 0,
       "inputs": [
         {
@@ -688,12 +688,12 @@
           {
             "name": "A",
             "selected": true,
-            "url": "/api/view?filename=rgthree.compare._temp_xphlf_00019_.png&type=temp&subfolder=&rand=0.7231113339111459"
+            "url": "/api/view?filename=rgthree.compare._temp_acncc_00007_.png&type=temp&subfolder=&rand=0.4243906672971398"
           },
           {
             "name": "B",
             "selected": true,
-            "url": "/api/view?filename=rgthree.compare._temp_xphlf_00020_.png&type=temp&subfolder=&rand=0.5695949988838431"
+            "url": "/api/view?filename=rgthree.compare._temp_acncc_00008_.png&type=temp&subfolder=&rand=0.2817758705659019"
           }
         ]
       ]
@@ -710,7 +710,7 @@
         "1": 206
       },
       "flags": {},
-      "order": 21,
+      "order": 20,
       "mode": 0,
       "inputs": [
         {
@@ -1051,7 +1051,7 @@
       },
       "widgets_values": [
         "",
-        "Talor Swift"
+        "red dress"
       ]
     },
     {
@@ -1084,90 +1084,8 @@
         "Node name for S&R": "RandomNoise"
       },
       "widgets_values": [
-        12517642327139,
+        1021182765228938,
         "randomize"
-      ]
-    },
-    {
-      "id": 130,
-      "type": "LoadImage",
-      "pos": {
-        "0": 240,
-        "1": -611
-      },
-      "size": {
-        "0": 417.38385009765625,
-        "1": 314
-      },
-      "flags": {},
-      "order": 7,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            205,
-            226,
-            234
-          ],
-          "slot_index": 0,
-          "shape": 3,
-          "label": "IMAGE"
-        },
-        {
-          "name": "MASK",
-          "type": "MASK",
-          "links": [
-            217
-          ],
-          "slot_index": 1,
-          "shape": 3,
-          "label": "MASK"
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "LoadImage"
-      },
-      "widgets_values": [
-        "clipspace/clipspace-mask-1237236.2999999523.png [input]",
-        "image"
-      ]
-    },
-    {
-      "id": 139,
-      "type": "EmptySD3LatentImage",
-      "pos": {
-        "0": 821.7671508789062,
-        "1": 573.8721313476562
-      },
-      "size": {
-        "0": 315,
-        "1": 106
-      },
-      "flags": {},
-      "order": 8,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "LATENT",
-          "type": "LATENT",
-          "links": [
-            222
-          ],
-          "slot_index": 0,
-          "shape": 3
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "EmptySD3LatentImage"
-      },
-      "widgets_values": [
-        1536,
-        1536,
-        1
       ]
     },
     {
@@ -1182,7 +1100,7 @@
         "1": 106
       },
       "flags": {},
-      "order": 17,
+      "order": 16,
       "mode": 0,
       "inputs": [
         {
@@ -1225,7 +1143,7 @@
         "1": 185.3224639892578
       },
       "flags": {},
-      "order": 9,
+      "order": 7,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1259,6 +1177,53 @@
       },
       "widgets_values": [
         "flux1-dev-fp8.safetensors"
+      ]
+    },
+    {
+      "id": 130,
+      "type": "LoadImage",
+      "pos": {
+        "0": 240,
+        "1": -611
+      },
+      "size": {
+        "0": 417.38385009765625,
+        "1": 314
+      },
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            205,
+            226,
+            234
+          ],
+          "slot_index": 0,
+          "shape": 3,
+          "label": "IMAGE"
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": [
+            217
+          ],
+          "slot_index": 1,
+          "shape": 3,
+          "label": "MASK"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "clipspace/clipspace-mask-10371569.5.png [input]",
+        "image"
       ]
     },
     {
@@ -1306,9 +1271,45 @@
       "widgets_values": [
         "append",
         "no",
-        "Talor Swift",
+        "red dress",
         "",
-        ""
+        "",
+        "red dress"
+      ]
+    },
+    {
+      "id": 139,
+      "type": "EmptySD3LatentImage",
+      "pos": {
+        "0": 821.7671508789062,
+        "1": 573.8721313476562
+      },
+      "size": {
+        "0": 315,
+        "1": 106
+      },
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            222
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "EmptySD3LatentImage"
+      },
+      "widgets_values": [
+        1024,
+        1024,
+        1
       ]
     }
   ],
@@ -1643,10 +1644,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.35049389948139237,
+      "scale": 0.5131581182307069,
       "offset": [
-        309.95432136138004,
-        940.3319860228814
+        -30.162459391985458,
+        819.8188420965952
       ]
     },
     "workspace_info": {
