@@ -1,0 +1,159 @@
+{
+  "last_node_id": 3,
+  "last_link_id": 2,
+  "nodes": [
+    {
+      "id": 3,
+      "type": "LoadImage",
+      "pos": {
+        "0": 304,
+        "1": 218
+      },
+      "size": {
+        "0": 315,
+        "1": 314
+      },
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            2
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "einstein.jpg",
+        "image"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "ShowText|pysssss",
+      "pos": {
+        "0": 1253,
+        "1": 363
+      },
+      "size": {
+        "0": 346.5,
+        "1": 454
+      },
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 1,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null,
+          "shape": 6
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "",
+        "\"Meet Jack, a man whose face has been etched with the lines of a lifetime of wisdom and curiosity. This black and white portrait captures the essence of Jack's character, a true embodiment of the phrase 'age is just a number.' With his wild, wispy hair and bushy mustache, Jack exudes a sense of eccentricity and intelligence that is simply captivating.\n\nBut it's not just Jack's physical appearance that makes this image so compelling - it's the depth of emotion and experience that shines through in his eyes. You can almost sense the weight of years of knowledge and insight that he's accumulated, and the quiet confidence that comes with it.\n\nJack's story is one of passion, creativity, and a relentless pursuit of knowledge. As a [insert profession or area of expertise], Jack has dedicated his life to unlocking the secrets of the universe, and his work has left an indelible mark on the world.\n\nDespite the many accolades and achievements that have come his way, Jack remains humble and kind, with a generosity of spirit that is truly inspiring. This portrait is a testament to the power of human experience, and the enduring legacy of those who have made a meaningful impact on our world.\n\nSo take a moment to appreciate the wisdom and character that"
+      ]
+    },
+    {
+      "id": 1,
+      "type": "BizyAirJoyCaption2",
+      "pos": {
+        "0": 796,
+        "1": 260.5
+      },
+      "size": {
+        "0": 400,
+        "1": 270
+      },
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 2
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            1
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "BizyAirJoyCaption2"
+      },
+      "widgets_values": [
+        true,
+        0.5,
+        256,
+        "Descriptive",
+        "any",
+        "If there is a person/character in the image you must refer to them as {name}.",
+        "Jack",
+        ""
+      ]
+    }
+  ],
+  "links": [
+    [
+      1,
+      1,
+      0,
+      2,
+      0,
+      "STRING"
+    ],
+    [
+      2,
+      3,
+      0,
+      1,
+      0,
+      "IMAGE"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 1,
+      "offset": [
+        0,
+        0
+      ]
+    }
+  },
+  "version": 0.4
+}

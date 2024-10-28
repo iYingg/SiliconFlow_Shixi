@@ -1,0 +1,1520 @@
+{
+  "last_node_id": 160,
+  "last_link_id": 204,
+  "nodes": [
+    {
+      "id": 115,
+      "type": "ImageResize+",
+      "pos": {
+        "0": 494.54827880859375,
+        "1": 1786.72802734375
+      },
+      "size": {
+        "0": 210,
+        "1": 218
+      },
+      "flags": {},
+      "order": 7,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 139
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            138
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ImageResize+"
+      },
+      "widgets_values": [
+        512,
+        512,
+        "lanczos",
+        "stretch",
+        "always",
+        0
+      ]
+    },
+    {
+      "id": 117,
+      "type": "PreviewImage",
+      "pos": {
+        "0": 501.5483093261719,
+        "1": 2052.72802734375
+      },
+      "size": {
+        "0": 210,
+        "1": 246
+      },
+      "flags": {},
+      "order": 8,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 140
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 94,
+      "type": "ShowText|pysssss",
+      "pos": {
+        "0": 1217.548828125,
+        "1": 1787.72802734375
+      },
+      "size": {
+        "0": 494.45086669921875,
+        "1": 606.6918334960938
+      },
+      "flags": {},
+      "order": 25,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 104,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null,
+          "shape": 6
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "",
+        "这张图片展示了一只可爱的猫咪。猫咪的毛色主要是橙色和白色，毛发柔软且有光泽。它的耳朵竖起，眼睛大而明亮，眼神中透露出好奇和警觉。猫咪的胡须清晰可见，增加了它的可爱感。\n\n猫咪的姿势是坐立的，前爪微微分开，显得非常优雅。背景是模糊的，使得猫咪成为图片的焦点。整体上，这张图片给人一种温馨和宁静的感觉。\n\n有趣或不寻常的细节：\n1. **眼神**：猫咪的眼神非常有神，似乎在观察着什么，给人一种聪明和好奇的感觉。\n2. **胡须**：猫咪的胡须非常清晰，增加了它的可爱感。\n3. **毛发**：猫咪的毛发柔软且有光泽，给人一种温暖和舒适的感觉。\n\n总的来说，这张图片展示了一只非常可爱的猫咪，它的表情和姿势都非常有趣和吸引人。"
+      ]
+    },
+    {
+      "id": 120,
+      "type": "PreviewImage",
+      "pos": {
+        "0": 447.4309387207031,
+        "1": 151.85427856445312
+      },
+      "size": {
+        "0": 210,
+        "1": 246
+      },
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 144
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 108,
+      "type": "ShowText|pysssss",
+      "pos": {
+        "0": 1597.4320068359375,
+        "1": 481.85357666015625
+      },
+      "size": {
+        "0": 494.45086669921875,
+        "1": 606.6918334960938
+      },
+      "flags": {},
+      "order": 28,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 120,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null,
+          "shape": 6
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "",
+        "以上几张图片的共同点是它们都展示了动物。第一张图片展示了一只狗，第二张图片展示了一只鲨鱼。尽管它们属于不同的物种和环境，但它们都是动物界的一部分。"
+      ]
+    },
+    {
+      "id": 116,
+      "type": "BizyAir_LoadImageURL",
+      "pos": {
+        "0": 133.548583984375,
+        "1": 1788.72802734375
+      },
+      "size": {
+        "0": 297.5968933105469,
+        "1": 158.63092041015625
+      },
+      "flags": {},
+      "order": 0,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            139,
+            140
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "BizyAir_LoadImageURL"
+      },
+      "widgets_values": [
+        "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/outputs/658c7434-ec12-49cc-90e6-fe22ccccaf62_00001_.png"
+      ]
+    },
+    {
+      "id": 79,
+      "type": "ImageBatch",
+      "pos": {
+        "0": 817.4308471679688,
+        "1": 651.8535766601562
+      },
+      "size": {
+        "0": 210,
+        "1": 46
+      },
+      "flags": {},
+      "order": 22,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image1",
+          "type": "IMAGE",
+          "link": 164
+        },
+        {
+          "name": "image2",
+          "type": "IMAGE",
+          "link": 163
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            114
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ImageBatch"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 119,
+      "type": "PreviewImage",
+      "pos": {
+        "0": 424,
+        "1": 787
+      },
+      "size": {
+        "0": 210,
+        "1": 246
+      },
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 141
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 121,
+      "type": "BizyAir_LoadImageURL",
+      "pos": {
+        "0": 64,
+        "1": 489
+      },
+      "size": {
+        "0": 297.5968933105469,
+        "1": 158.63092041015625
+      },
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            143,
+            144
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "BizyAir_LoadImageURL"
+      },
+      "widgets_values": [
+        "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/dog.png"
+      ]
+    },
+    {
+      "id": 118,
+      "type": "BizyAir_LoadImageURL",
+      "pos": {
+        "0": 64.43120574951172,
+        "1": 801.8536376953125
+      },
+      "size": {
+        "0": 297.5968933105469,
+        "1": 158.63092041015625
+      },
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            141,
+            142
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "BizyAir_LoadImageURL"
+      },
+      "widgets_values": [
+        "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/shark.jpg"
+      ]
+    },
+    {
+      "id": 114,
+      "type": "ImageResize+",
+      "pos": {
+        "0": 421,
+        "1": 1100
+      },
+      "size": {
+        "0": 210,
+        "1": 218
+      },
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 142
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            163
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ImageResize+"
+      },
+      "widgets_values": [
+        448,
+        448,
+        "lanczos",
+        "stretch",
+        "always",
+        0
+      ]
+    },
+    {
+      "id": 111,
+      "type": "ImageResize+",
+      "pos": {
+        "0": 437,
+        "1": 462
+      },
+      "size": {
+        "0": 210,
+        "1": 218
+      },
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 143
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            164
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ImageResize+"
+      },
+      "widgets_values": [
+        448,
+        448,
+        "lanczos",
+        "stretch",
+        "always",
+        0
+      ]
+    },
+    {
+      "id": 103,
+      "type": "BizyAirSiliconCloudVLMAPI",
+      "pos": {
+        "0": 1136,
+        "1": 492
+      },
+      "size": {
+        "0": 421.0598449707031,
+        "1": 550.3289184570312
+      },
+      "flags": {},
+      "order": 26,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 114
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            120
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "BizyAirSiliconCloudVLMAPI"
+      },
+      "widgets_values": [
+        "Qwen/Qwen2-VL-72B-Instruct",
+        "你是一个能分析图像的AI助手。请仔细观察图像，并根据用户的问题提供详细、准确的描述。",
+        "以上这几张图片是否有什么共同点呢？",
+        512,
+        0.7,
+        "low"
+      ]
+    },
+    {
+      "id": 140,
+      "type": "ShowText|pysssss",
+      "pos": {
+        "0": 4136.1328125,
+        "1": 1218.01171875
+      },
+      "size": {
+        "0": 494.45086669921875,
+        "1": 606.6918334960938
+      },
+      "flags": {},
+      "order": 30,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 183,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null,
+          "shape": 6
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "",
+        "图1中是一只金毛犬，它正对着镜头，耳朵下垂，嘴巴微闭，毛色为金黄色。\n图2中是一只鲨鱼，它在深海中游动，身体呈现出流线型，颜色为灰白色。\n图3中是一只黄白相间的小猫，它坐在地上，耳朵竖立，眼睛大而圆，毛色为黄色和白色相间。\n图4中是一个女人，她戴着一顶金色的头饰，头饰上装饰有复杂的图案和宝石，她的头发是灰色的，披散在肩上。她站在一个充满机械齿轮的背景下，背景中可以看到许多金属齿轮和链条。"
+      ]
+    },
+    {
+      "id": 141,
+      "type": "ImageResize+",
+      "pos": {
+        "0": 2586.13037109375,
+        "1": 438.01214599609375
+      },
+      "size": {
+        "0": 210,
+        "1": 218
+      },
+      "flags": {},
+      "order": 15,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 184
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            180
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ImageResize+"
+      },
+      "widgets_values": [
+        448,
+        448,
+        "lanczos",
+        "stretch",
+        "always",
+        0
+      ]
+    },
+    {
+      "id": 142,
+      "type": "ImageResize+",
+      "pos": {
+        "0": 2576.13037109375,
+        "1": 1078.01171875
+      },
+      "size": {
+        "0": 210,
+        "1": 218
+      },
+      "flags": {},
+      "order": 13,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 185
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            181
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ImageResize+"
+      },
+      "widgets_values": [
+        448,
+        448,
+        "lanczos",
+        "stretch",
+        "always",
+        0
+      ]
+    },
+    {
+      "id": 143,
+      "type": "BizyAir_LoadImageURL",
+      "pos": {
+        "0": 2216.13037109375,
+        "1": 778.0117797851562
+      },
+      "size": {
+        "0": 297.5968933105469,
+        "1": 158.63092041015625
+      },
+      "flags": {},
+      "order": 3,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            185,
+            186
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "BizyAir_LoadImageURL"
+      },
+      "widgets_values": [
+        "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/shark.jpg"
+      ]
+    },
+    {
+      "id": 144,
+      "type": "PreviewImage",
+      "pos": {
+        "0": 2576.13037109375,
+        "1": 768.0117797851562
+      },
+      "size": {
+        "0": 210,
+        "1": 246
+      },
+      "flags": {},
+      "order": 14,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 186
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 145,
+      "type": "PreviewImage",
+      "pos": {
+        "0": 2596.13037109375,
+        "1": 128.0123748779297
+      },
+      "size": {
+        "0": 210,
+        "1": 246
+      },
+      "flags": {},
+      "order": 16,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 187
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 146,
+      "type": "BizyAir_LoadImageURL",
+      "pos": {
+        "0": 2216.13037109375,
+        "1": 468.0117492675781
+      },
+      "size": {
+        "0": 297.5968933105469,
+        "1": 158.63092041015625
+      },
+      "flags": {},
+      "order": 4,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            184,
+            187
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "BizyAir_LoadImageURL"
+      },
+      "widgets_values": [
+        "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/dog.png"
+      ]
+    },
+    {
+      "id": 151,
+      "type": "PreviewImage",
+      "pos": {
+        "0": 2600.13037109375,
+        "1": 1501.01220703125
+      },
+      "size": {
+        "0": 210,
+        "1": 246
+      },
+      "flags": {},
+      "order": 20,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 191
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 155,
+      "type": "PreviewImage",
+      "pos": {
+        "0": 2586.13037109375,
+        "1": 2108.0107421875
+      },
+      "size": {
+        "0": 210,
+        "1": 246
+      },
+      "flags": {},
+      "order": 18,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 195
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 154,
+      "type": "BizyAir_LoadImageURL",
+      "pos": {
+        "0": 2216.13037109375,
+        "1": 2108.0107421875
+      },
+      "size": {
+        "0": 297.5968933105469,
+        "1": 158.63092041015625
+      },
+      "flags": {},
+      "order": 5,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            194,
+            195
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "BizyAir_LoadImageURL"
+      },
+      "widgets_values": [
+        "https://bizy-air.oss-cn-beijing.aliyuncs.com/examples_asset/bizyair-instantid-example.webp"
+      ]
+    },
+    {
+      "id": 150,
+      "type": "BizyAir_LoadImageURL",
+      "pos": {
+        "0": 2239.42724609375,
+        "1": 1495.19970703125
+      },
+      "size": {
+        "0": 297.5968933105469,
+        "1": 158.63092041015625
+      },
+      "flags": {},
+      "order": 6,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            190,
+            191
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "BizyAir_LoadImageURL"
+      },
+      "widgets_values": [
+        "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/outputs/658c7434-ec12-49cc-90e6-fe22ccccaf62_00001_.png"
+      ]
+    },
+    {
+      "id": 138,
+      "type": "ImageBatch",
+      "pos": {
+        "0": 2966.13037109375,
+        "1": 628.0116577148438
+      },
+      "size": {
+        "0": 210,
+        "1": 46
+      },
+      "flags": {},
+      "order": 23,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "image1",
+          "type": "IMAGE",
+          "link": 180
+        },
+        {
+          "name": "image2",
+          "type": "IMAGE",
+          "link": 181
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            200
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ImageBatch"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 157,
+      "type": "ImageBatch",
+      "pos": {
+        "0": 2946.13037109375,
+        "1": 1843.011474609375
+      },
+      "size": {
+        "0": 210,
+        "1": 46
+      },
+      "flags": {},
+      "order": 24,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "image1",
+          "type": "IMAGE",
+          "link": 197
+        },
+        {
+          "name": "image2",
+          "type": "IMAGE",
+          "link": 198
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            201
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ImageBatch"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 159,
+      "type": "ImageBatch",
+      "pos": {
+        "0": 3279.13037109375,
+        "1": 1362.01171875
+      },
+      "size": {
+        "0": 210,
+        "1": 46
+      },
+      "flags": {},
+      "order": 27,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "image1",
+          "type": "IMAGE",
+          "link": 200
+        },
+        {
+          "name": "image2",
+          "type": "IMAGE",
+          "link": 201
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            202
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ImageBatch"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 139,
+      "type": "BizyAirSiliconCloudVLMAPI",
+      "pos": {
+        "0": 3677.13037109375,
+        "1": 1238.01171875
+      },
+      "size": {
+        "0": 421.0598449707031,
+        "1": 550.3289184570312
+      },
+      "flags": {},
+      "order": 29,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 202
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            183
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "BizyAirSiliconCloudVLMAPI"
+      },
+      "widgets_values": [
+        "Qwen/Qwen2-VL-72B-Instruct",
+        "你是一个能分析图像的AI助手。请仔细观察图像，并根据用户的问题提供详细、准确的描述。",
+        "请描述以上所有图片的内容，如果是物品的话，说出对应的品牌、型号、类型；如果是人物的话，请说出对应的人物名称、性别和身份。",
+        512,
+        0.7,
+        "low"
+      ]
+    },
+    {
+      "id": 149,
+      "type": "ImageResize+",
+      "pos": {
+        "0": 2592.13037109375,
+        "1": 1805.011474609375
+      },
+      "size": {
+        "0": 210,
+        "1": 218
+      },
+      "flags": {},
+      "order": 19,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 190
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            197
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ImageResize+"
+      },
+      "widgets_values": [
+        448,
+        448,
+        "lanczos",
+        "stretch",
+        "always",
+        0
+      ]
+    },
+    {
+      "id": 153,
+      "type": "ImageResize+",
+      "pos": {
+        "0": 2576.13037109375,
+        "1": 2418.010986328125
+      },
+      "size": {
+        "0": 210,
+        "1": 218
+      },
+      "flags": {},
+      "order": 17,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 194
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            198
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ImageResize+"
+      },
+      "widgets_values": [
+        448,
+        448,
+        "lanczos",
+        "stretch",
+        "always",
+        0
+      ]
+    },
+    {
+      "id": 93,
+      "type": "BizyAirSiliconCloudVLMAPI",
+      "pos": {
+        "0": 741.5485229492188,
+        "1": 1785.72802734375
+      },
+      "size": {
+        "0": 419.3785095214844,
+        "1": 518.3347778320312
+      },
+      "flags": {},
+      "order": 21,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 138
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            104
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "BizyAirSiliconCloudVLMAPI"
+      },
+      "widgets_values": [
+        "Qwen/Qwen2-VL-72B-Instruct",
+        "你是一个能分析图像的AI助手。请仔细观察图像，并根据用户的问题提供详细、准确的描述。",
+        "请描述这张图片的内容，并指出任何有趣或不寻常的细节。",
+        512,
+        0.7,
+        "low"
+      ]
+    }
+  ],
+  "links": [
+    [
+      104,
+      93,
+      0,
+      94,
+      0,
+      "STRING"
+    ],
+    [
+      114,
+      79,
+      0,
+      103,
+      0,
+      "IMAGE"
+    ],
+    [
+      120,
+      103,
+      0,
+      108,
+      0,
+      "STRING"
+    ],
+    [
+      138,
+      115,
+      0,
+      93,
+      0,
+      "IMAGE"
+    ],
+    [
+      139,
+      116,
+      0,
+      115,
+      0,
+      "IMAGE"
+    ],
+    [
+      140,
+      116,
+      0,
+      117,
+      0,
+      "IMAGE"
+    ],
+    [
+      141,
+      118,
+      0,
+      119,
+      0,
+      "IMAGE"
+    ],
+    [
+      142,
+      118,
+      0,
+      114,
+      0,
+      "IMAGE"
+    ],
+    [
+      143,
+      121,
+      0,
+      111,
+      0,
+      "IMAGE"
+    ],
+    [
+      144,
+      121,
+      0,
+      120,
+      0,
+      "IMAGE"
+    ],
+    [
+      163,
+      114,
+      0,
+      79,
+      1,
+      "IMAGE"
+    ],
+    [
+      164,
+      111,
+      0,
+      79,
+      0,
+      "IMAGE"
+    ],
+    [
+      180,
+      141,
+      0,
+      138,
+      0,
+      "IMAGE"
+    ],
+    [
+      181,
+      142,
+      0,
+      138,
+      1,
+      "IMAGE"
+    ],
+    [
+      183,
+      139,
+      0,
+      140,
+      0,
+      "STRING"
+    ],
+    [
+      184,
+      146,
+      0,
+      141,
+      0,
+      "IMAGE"
+    ],
+    [
+      185,
+      143,
+      0,
+      142,
+      0,
+      "IMAGE"
+    ],
+    [
+      186,
+      143,
+      0,
+      144,
+      0,
+      "IMAGE"
+    ],
+    [
+      187,
+      146,
+      0,
+      145,
+      0,
+      "IMAGE"
+    ],
+    [
+      190,
+      150,
+      0,
+      149,
+      0,
+      "IMAGE"
+    ],
+    [
+      191,
+      150,
+      0,
+      151,
+      0,
+      "IMAGE"
+    ],
+    [
+      194,
+      154,
+      0,
+      153,
+      0,
+      "IMAGE"
+    ],
+    [
+      195,
+      154,
+      0,
+      155,
+      0,
+      "IMAGE"
+    ],
+    [
+      197,
+      149,
+      0,
+      157,
+      0,
+      "IMAGE"
+    ],
+    [
+      198,
+      153,
+      0,
+      157,
+      1,
+      "IMAGE"
+    ],
+    [
+      200,
+      138,
+      0,
+      159,
+      0,
+      "IMAGE"
+    ],
+    [
+      201,
+      157,
+      0,
+      159,
+      1,
+      "IMAGE"
+    ],
+    [
+      202,
+      159,
+      0,
+      139,
+      0,
+      "IMAGE"
+    ]
+  ],
+  "groups": [
+    {
+      "title": "Multi-images LVM Test（Batch = 4）",
+      "bounding": [
+        2206,
+        54,
+        2434,
+        2592
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "title": "Multi-images LVM Test（Batch = 2）",
+      "bounding": [
+        36,
+        57,
+        2137,
+        1504
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "title": "Single Image LVM Test",
+      "bounding": [
+        34,
+        1604,
+        1754,
+        857
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    }
+  ],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.43056764313425167,
+      "offset": [
+        1342.213497983985,
+        49.60421768584009
+      ]
+    }
+  },
+  "version": 0.4
+}
